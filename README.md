@@ -19,4 +19,10 @@ React Hook Form
 # 4 - GitHub Setup
 -> .gitignore
 
-# 5 - 
+# 5 - Deployed on Vercel
+url: https://react-hook-form-two-eta.vercel.app/
+
+# Commands
+yarn start
+yarn build
+
