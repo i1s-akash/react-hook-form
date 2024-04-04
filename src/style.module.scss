@@ -1,0 +1,100 @@
+%flexCommon {
+  display: flex;
+  align-items: center;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+
+  .stepTracker {
+    margin-bottom: 20px;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+  }
+
+  .result {
+    margin-top: 20px;
+  }
+}
+
+.formContainer {
+  max-width: 400px;
+  margin: 0 auto;
+  text-align: left;
+  flex-direction: column;
+  @extend %flexCommon;
+}
+
+.inputContainer {
+  margin-bottom: 10px;
+  width: 100%;
+}
+
+.inputField {
+  width: 100%;
+  padding: 5px;
+}
+
+.error {
+  color: red;
+  margin-left: 10px;
+}
+
+.buttonContainer {
+  @extend %flexCommon;
+  justify-content: center;
+}
+
+.button {
+  padding: 5px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  margin-right: 5px;
+  margin-bottom: 5px;
+}
+
+.removeButton {
+  @extend .button;
+  background-color: #dc3545;
+  color: white;
+}
+
+.toggleButton {
+  @extend .button;
+  background-color: #ffc107;
+  color: black;
+}
+
+.addButton {
+  @extend .button;
+  background-color: #28a745;
+  color: white;
+}
+
+.submitButtonStepOne {
+  @extend .button;
+  background-color: #007bff;
+  color: white;
+  width: 150px;
+}
+
+.submitButton {
+  @extend .button;
+  background-color: #007bff;
+  color: white;
+}
+
+.startOverbutton {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-bottom: 10px;
+  width: 100%;
+}

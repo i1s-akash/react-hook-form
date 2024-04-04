@@ -1,0 +1,31 @@
+{
+  "name": "react-hook-form",
+  "version": "1.0.0",
+  "description": "\"React Hook Form\"",
+  "scripts": {
+    "start": "rm -rf .parcel-cache && parcel public/index.html",
+    "build": "rm -rf dist && parcel build public/index.html"
+  },
+  "keywords": [
+    "\"React\"",
+    "\"React",
+    "Hook",
+    "Form\""
+  ],
+  "author": "\"Akash Prajapati\"",
+  "license": "ISC",
+  "devDependencies": {
+    "@parcel/transformer-sass": "^2.12.0",
+    "@types/react": "^18.2.74",
+    "@types/react-dom": "^18.2.23",
+    "parcel": "^2.12.0",
+    "process": "^0.11.10",
+    "sass": "^1.74.1",
+    "yarn": "^1.22.22"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-hook-form": "^7.51.2"
+  }
+}
